@@ -43,7 +43,7 @@ Kontrolle beim Umgang mit Daten.
 
 <style>
 .container{
-    display: flex;
+  display: flex;
 }
 .col{
     flex: 1;
@@ -117,6 +117,7 @@ Sprachliche Interaktionssituation → Videoaufnahme → Transkript → Übersetz
 
 - Welche Daten habe ich?
 - Welche Derivate (Transformationen/ANnotationen) habe ich?
+- Wie sind diese verschiedenen Datenmodelle verknüpft?
 
 ---
 
@@ -141,8 +142,7 @@ Sprachliche Interaktionssituation → Videoaufnahme → Transkript → Übersetz
 
 ### Paradaten
 
-> The paradata of a data set or survey are data about the process by which the data were collected.
-<small>[Wikipedia](https://en.wikipedia.org/wiki/Paradata)</small>
+> The paradata of a data set or survey are data about the process by which the data were collected. <small>[Wikipedia](https://en.wikipedia.org/wiki/Paradata)</small>
 
 ---
 
@@ -159,6 +159,7 @@ Sprachliche Interaktionssituation → Videoaufnahme → Transkript → Übersetz
 
 - Code
 - Paper
+- Was habe ich und wie ist es mit den Daten verknüpft?
 
 ---
 
@@ -168,9 +169,9 @@ Sprachliche Interaktionssituation → Videoaufnahme → Transkript → Übersetz
 
 ### Wie sieht es bei euch aus? 💥
 
-- Daten 
-    - Rohdaten
-    - Derivate/Datenmodelle
+- Daten
+  - Rohdaten
+  - Derivate/Datenmodelle
 - Metadaten
 - Paradaten
 - Anderer Output
@@ -197,8 +198,9 @@ Sprachliche Interaktionssituation → Videoaufnahme → Transkript → Übersetz
 
 - Dokumentiere Strukturen
 - Dokumentiere Entscheidungen
-- Automatisiere Prozesse
+- Dokumentere die Änderungen (z.B. via Code)
 - Versioniere Daten
+- Automatisiere Prozesse
 - Wiederholbarkeit (Repeatability)
 - Kontrolle über Daten und Prozess
 
@@ -311,8 +313,13 @@ project/
 
 ---
 
-`ger-LK-2023-05-31-001-raw-audio.wav`
-`ger-LK-2023-05-31-001-raw-audio.wav`
+### Beispiel Dateibenennung
+
+<small>`[ISO 639-3]_[speaker]_[date]_[number]_[data type].[file extension]`</small>
+
+`ger_LK_2023-05-31_001_raw-audio.wav`
+`ger_LK_2023-05-31_001_raw-video.m4v`
+
 
 <small>Rau, F. (2023). DCH File Naming Guidelines (1.0.0). Zenodo. [doi:10.5281/zenodo.7447485](https://doi.org/10.5281/zenodo.7447485)</small>
 
@@ -323,6 +330,7 @@ project/
 - Versionierung
 - Dokumentation der Transformationen und Analyse
 - Alles in Code
+- Automatisierung
 - (Analyse)
 
 ---
@@ -339,13 +347,16 @@ project/
 
 - Metadaten
 - Datenstandards
+  - Nachhaltigkeit der Formate
+- 10 Jahre Archivierung (Mindestanforderung)
+- Langzeitarchivierung
 
 ---
 
 ### Datenpublikation
 
 - Repositoriumssuche
-- Metadaten standards
+- Metadatenstandards
 
 ---
 
