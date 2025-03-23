@@ -10,5 +10,39 @@ footer{
     align-items: flex-end;
   }
 
-background:
-    linear-gradient(to bottom, #ECF4ED, #FFFFFF);
+  section {
+    background-color: #ffffff;
+    background-image: linear-gradient(#ebf4ee 25%, #ffffff 75%);
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  section small {
+    font-size: large;
+  }
+
+  section.quote blockquote {
+    text-align: left;
+  }
+
+  section.quote p {
+    text-align: left;
+  }
+
+  section.quote small {
+    font-size: large;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'Oswald','Open Sans', 'Helvetica Neue', sans-serif;   
+    font-weight: normal; 
+    letter-spacing: normal  
+  }
+
+  h1 {
+    font-size: 2.5em;
+  }
