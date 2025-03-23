@@ -9,3 +9,6 @@ footer{
     justify-content: space-between;
     align-items: flex-end;
   }
+
+background:
+    linear-gradient(to bottom, #ECF4ED, #FFFFFF);

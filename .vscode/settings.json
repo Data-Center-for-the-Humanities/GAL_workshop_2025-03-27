@@ -1,5 +1,6 @@
 {
   "markdown.marp.themes": [
     "./css/dch.css"
-  ]
+  ],
+  "makefile.configureOnOpen": false
 }

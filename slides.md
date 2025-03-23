@@ -35,19 +35,10 @@ targetfile: sourcefile
 
 ---
 
-<!-- footer: 'div style="footer.align-items:center"><div>![width:30px](./img/cc.svg) ![width:30px](./img/by.svg) <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</a></div> <div/> <div/>'-->
-
-<!-- <style>
-footer{
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    gap: 5px
-  }
-  </style> -->
+<!-- footer: '<div>![width:30px](./img/cc.svg) ![width:30px](./img/by.svg) <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</a></div> <div/> <div/>'-->
 
 ![bg vertical right:50% w:500](./img/dch_logo.png)
-![bg vertical right:50% w:200](./img/qr.png)
+![bg vertical right:50% w:300](./img/qr.png)
 
 ## Thank you!
 
