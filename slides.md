@@ -2,7 +2,7 @@
 marp: true
 theme: dch
 title: 'Ich hab es hier irgendwo'
-doi: 'https://doi.org/10.5281/zenodo.14844538'
+doi: https://doi.org/10.5281/zenodo.15090059
 footer: '<span>GAL Research School 2025</span><span/>![width:120px](./img/dch_logo.png)'
 _footer: ""
 ---
@@ -26,7 +26,6 @@ Kontrolle beim Umgang mit Daten.
 
 ### Fahrplan
 
-
 | Zeit      |        | Inhalt         |
 |:----------|:-------|:---------------|
 | 14:00 Uhr | 5 min  | Intro          |
@@ -35,7 +34,6 @@ Kontrolle beim Umgang mit Daten.
 | 14:50 Uhr | 45 min | Workflows      |
 | 15:20 Uhr | 20 min | Diskussion 💥  |
 | 15:50 Uhr | 10 min | Abschluss      |
-
 
 ---
 
@@ -80,7 +78,6 @@ Kontrolle beim Umgang mit Daten.
 ---
 <!-- _footer: '<span>GAL Research School 2025</span><span/>' -->
 ## Daten
-
 
 ![bg right:50% w:600](./img/ELAN.png)
 
@@ -319,7 +316,6 @@ project/
 
 `ger_LK_2023-05-31_001_raw-audio.wav`
 `ger_LK_2023-05-31_001_raw-video.m4v`
-
 
 <small>Rau, F. (2023). DCH File Naming Guidelines (1.0.0). Zenodo. [doi:10.5281/zenodo.7447485](https://doi.org/10.5281/zenodo.7447485)</small>
 
