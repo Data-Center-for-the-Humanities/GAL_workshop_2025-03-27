@@ -1,3 +1,5 @@
+SHELL=/bin/bash
+
 ## Markdown extension (e.g. md, markdown, mdown).
 MEXT = md
 
@@ -10,7 +12,7 @@ PDFS=$(SRC:.md=.pdf)
 HTML=$(SRC:.md=.html)
 PPTX=$(SRC:.md=.pptx)
 
-all:	$(PDFS) $(HTML) $(TEX) $(DOCX)
+all:	$(PDFS) $(HTML) $(PPTX)
 
 pdf:	$(PDFS)
 html:	clean $(HTML)
@@ -29,7 +31,7 @@ pptx:	$(PPTX)
 
 qr.png: slides.md
 	echo "Searching for DOI in slides.md...";\
-	grep "^doi: " slides.md | awk -F '[ ]' '{print $2}' | qrencode --margin=0 --dpi=300 -o qr.png;\
+	grep "^doi: " slides.md | awk '{print $$2}' | qrencode --margin=0 --dpi=300 -o qr.png;\
 	mv qr.png ./img/
 
 metadata.png: $(IMG)blam.png $(IMG)zenodo.png
@@ -37,6 +39,6 @@ metadata.png: $(IMG)blam.png $(IMG)zenodo.png
 	mv metadata.png ./img/
 
 clean:
-	rm -f slides.html ./pdf/slides.pdf
+	rm -f slides.html ./pdf/slides.pdf ./pdf/slides.pptx ./img/qr.png ./img/metadata.png
 
 .PHONY: clean
