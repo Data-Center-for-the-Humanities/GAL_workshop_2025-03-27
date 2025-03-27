@@ -33,7 +33,7 @@ Kontrolle beim Umgang mit Daten.
 | 14:35 Uhr | 10 min | FDM Prinzipien |
 | 14:50 Uhr | 45 min | Workflows      |
 | 15:20 Uhr | 20 min | Diskussion 💥  |
-| 15:50 Uhr | 10 min | Abschluss      |
+| 15:50 Uhr | 10 min | Abschluss  💥  |
 
 ---
 
@@ -81,7 +81,7 @@ Kontrolle beim Umgang mit Daten.
 
 ![bg right:50% w:600](./img/ELAN.png)
 
-In der Linguistik: Repräsentation eines gesprochenen, gebärdeten oder geschreibenen Sprachevents.
+In der Linguistik: Repräsentation eines gesprochenen, gebärdeten oder geschriebenen Sprachevents.
 
 ---
 
@@ -113,7 +113,7 @@ Sprachliche Interaktionssituation → Videoaufnahme → Transkript → Übersetz
 ### Daten und Datenmodelle
 
 - Welche Daten habe ich?
-- Welche Derivate (Transformationen/ANnotationen) habe ich?
+- Welche Derivate (Transformationen/Annotationen) habe ich?
 - Wie sind diese verschiedenen Datenmodelle verknüpft?
 
 ---
@@ -179,13 +179,12 @@ Sprachliche Interaktionssituation → Videoaufnahme → Transkript → Übersetz
 
 ---
 
-
 | Dauer  | Inhalt         |
 |:-------|:---------------|
 | 10 min | FDM Prinzipien |
 | 10 min | Workflows      |
-| 10 min | Datensuche 💥|
-| 20 min | Diskussion     |
+| 10 min | Datensuche 💥  |
+| 20 min | Diskussion  💥 |
 
 ---
 
@@ -221,7 +220,7 @@ Sprachliche Interaktionssituation → Videoaufnahme → Transkript → Übersetz
 - Acquiring (erheben/erwerben)
 - Keeping (Daten halten)
 - Handling (handhaben)
-- Releasing (veröffenlichen/löschen/archivieren)
+- Releasing (veröffentlichen/löschen/archivieren)
 
 ---
 
@@ -274,7 +273,7 @@ Sprachliche Interaktionssituation → Videoaufnahme → Transkript → Übersetz
 
 ### Dateitypen
 
-- Offene, standatisierte Formate
+- Offene, standardisierte Formate
 - Arbeits- und Archivierungsformate
 
 ---
